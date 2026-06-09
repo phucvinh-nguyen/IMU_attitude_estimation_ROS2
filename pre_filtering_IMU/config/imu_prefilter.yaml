@@ -1,0 +1,9 @@
+/**:
+  ros__parameters:
+    input_topic: "/imu/data"
+    output_topic: "/imu/data_filtered"
+    median_window_size: 2
+    accel_lpf_freq: 20.0
+    gyro_lpf_freq: 40.0
+    imu_sampling_freq: 100.0
+    enable_median_filter: true
