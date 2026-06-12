@@ -3,9 +3,9 @@
 <package format="3">
   <name>eskf_python</name>
   <version>0.0.1</version>
-  <description>UKF Attitude Estimation.</description>
+  <description>ESKF Attitude Estimation.</description>
 
-  <maintainer email="developer@email.com">ROS Developer</maintainer>
+  <maintainer email="phucvinhng01@gmail.com">ROS Developer</maintainer>
   <license>MIT</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
