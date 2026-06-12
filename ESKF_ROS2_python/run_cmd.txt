@@ -1,0 +1,9 @@
+colcon build
+source install/setup.bash (or zsh)
+
+sudo apt install ros-$ROS_DISTRO-rmw-cyclonedds-cpp
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+
+ros2 run eskf_python eskf_node.py
+
+
